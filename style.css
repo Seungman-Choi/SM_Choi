@@ -1,0 +1,87 @@
+*{
+  font-family: 'Roboto', sans-serif;
+}
+
+body{
+  margin :0;
+  font-size:1em;
+}
+h1{
+  font-size : 200%
+}
+.container{
+  background-color: pink;
+  margin-top: -2%;
+}
+.nav{
+  margin-bottom : 10px;
+  text-align: center;
+  color : white;
+}
+
+li{
+  margin-bottom : 10px;
+}
+.Content{
+  padding: 0;
+  list-style-type: none;
+}
+.date{
+  background: none;
+  float:right;
+  margin-right: 0%;
+  padding: 0px;
+}
+.item{
+padding : 5%;
+}
+.item-a{
+  font-size : 60%;
+  color : white;
+  position: relative;
+  text-align: center;
+  background-color: #003A9A;
+}
+.item-b{
+  font-size : 50%;
+background-color: #E7EAD9;
+}
+a{
+  text-decoration-line: none;
+  color: white;
+}
+.img_jack{
+  width: 20%;
+}
+@media screen and (min-width: 700px) {
+  .container {
+    font-size: 0;
+  }
+  .item {
+    padding : 0%;
+    vertical-align : top;
+    font-size : 1vw;
+    display : inline-block;
+  }
+  .item-a {
+    position: fixed;
+    height: 105%;
+    text-align: center;
+    width : 20%;
+    float : left;
+  }
+  .item-b {
+    font-size : 1.2rem;
+    width : 60%;
+    float : right;
+    padding-left : 5%;
+    padding-top : 5%;
+    padding-bottom : 5%;
+    padding-right: 15%;
+
+  }
+  .img_jack{
+    margin-top: 30%;
+    width: 50%;
+  }
+}
